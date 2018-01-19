@@ -1,0 +1,153 @@
+/*fontes do projeto*/
+@font-face{
+	font-family: great-vibes;
+	src: url('../fonts/GreatVibes-Regular.ttf');
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/*Padrão do projeto*/
+body{
+	font-family: 'Roboto', sans-serif !important;
+}
+header{
+	padding-top: 10px;
+}
+.titulo-section{
+	font-size: 12px;
+}
+.subtitulo-section{
+	font-size: 40px;
+	font-family: great-vibes;
+	letter-spacing: 2px;
+}
+.conteudo-section{
+	font-size: 12px;
+}
+.cor-cinza{
+	color: #8e8e8e;
+	letter-spacing: 2px;
+}
+.icone-ok{
+	background-image: url('../imagens/icone-ok.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 30px;
+	width: 30px;
+	display: inline-flex;
+	position: absolute;
+	margin: -6px 0 0 -35px;
+}
+
+
+/*header*/
+.menu-principal{
+	color: #a5a5a5;
+	cursor: pointer;
+}
+.menu-principal li{	
+	list-style: none;
+	margin-right: 20px;  
+	font-size: 11px;
+	transition: 0.5s all;
+}
+.menu-principal .menu-borda{
+	border: 1px solid #a5a5a5;
+	border-radius: 15px;
+	padding: 7px 22px;
+	transition: 0.5s all;
+}
+.menu-principal li:hover, .menu-principal .menu-borda:hover{
+	color: #707070;
+}
+
+
+
+/*banner-principal
+.banner-principal{
+	background-image: url('../');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}*/
+#banner-principal{
+	overflow: hidden;
+}
+#banner-principal figure img{
+	width: 100%;
+	min-width: 1000px;
+	min-height: 250px;
+	text-align: center;
+}
+
+
+
+
+/*sobre-nos*/
+#sobre-nos{
+	padding: 80px 0;
+}
+
+
+
+/*nossos-servicos*/
+#conteudo-servicos{
+	max-width: 700px;
+}
+#nossos-servicos{
+	padding: 80px 0;
+	background-image: url('../imagens/transicao-areas-atuacao.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: #eeeeee;
+}
+#nossos-servicos #conteudo-servicos ol{
+	margin-top: 35px;
+	list-style: none;
+}
+#nossos-servicos #conteudo-servicos ol li{
+	margin-bottom: 35px;
+}
+
+
+/*galeria de imagens*/
+#section-imagens{
+	margin-top: -40px;
+	background-image: url('../imagens/funco-section-fotos.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 460px;
+}
+
+#section-imagens #div-galeria-imagens div{
+	height: 28vh;
+	width: 18vw;
+	background-color: white;
+	margin: 15px 15px;
+	-webkit-box-shadow: 24px 22px 33px -5px rgba(0,0,0,0.57);
+	-moz-box-shadow: 24px 22px 33px -5px rgba(0,0,0,0.57);
+	box-shadow: 24px 22px 33px -5px rgba(0,0,0,0.57);
+}
+
+
+
+
+/*section localizacao*/
+#section-localizacao{
+	padding-top: 80px;
+}
+
+
+
+
+/*section contato*/
+#section-contato{
+	margin-top: 40px;
+	background-image: url('../imagens/fundo-section-contato.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 600px;
+}
